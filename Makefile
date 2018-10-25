@@ -1,10 +1,4 @@
 # compile macro
-CPPFLAGS    = -O2 -Wall -Ddebug
-
-COMPILER 	= g++
-LINKER 		= g++
-
-# compile macro
 CPPFLAGS    = -O2 -Wall
 
 COMPILER 	= g++
@@ -12,7 +6,6 @@ LINKER 		= g++
 
 TARGET		= compress.exe
 OBJECTS		= src\Compress.o src\BitSet.o src\BitStream.o src\LZCoder.o
-
 
 
 $(TARGET): $(OBJECTS)
