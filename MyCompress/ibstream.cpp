@@ -126,7 +126,7 @@ size_t ibstream::gets(Bit*& buffer, size_t cnt)
 SSIZE ibstream::extractLength()
 {
     if (fp) {
-        size_t fptr = ftell(fp);
+        long fptr = ftell(fp);
 
         fseek(fp, -8L, SEEK_END);
         fread(&file_length, sizeof(file_length), 1, fp);

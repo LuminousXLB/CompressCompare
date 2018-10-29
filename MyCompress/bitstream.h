@@ -32,7 +32,7 @@ protected:
     Byte buffer[BUFFER_SIZE_BYTE];
     Bit bits[BUFFER_SIZE_BIT];
     SSIZE count;
-    int pos;
+    size_t pos;
 
 public:
     bstream();

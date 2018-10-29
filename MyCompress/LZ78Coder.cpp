@@ -2,6 +2,10 @@
 
 void LZ78Encoder::encode()
 {
+    if (!ibs.is_open() || !obs.is_open()) {
+        throw "File not Opened";
+    }
+
 #ifdef DEBUG
     DEBUG_HEADER;
     printf("\n");
@@ -122,6 +126,10 @@ SSIZE LZ78Decoder::partition_cnt()
 
 void LZ78Decoder::decode()
 {
+    if (!ibs.is_open() || !obs.is_open()) {
+        throw "File not Opened";
+    }
+
 #ifdef DEBUG
     DEBUG_HEADER;
     printf("\n");
