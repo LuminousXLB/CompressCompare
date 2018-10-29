@@ -123,6 +123,23 @@ size_t ibstream::gets(Bit*& buffer, size_t cnt)
     return b_eof() ? 0 : (ptr - buffer);
 }
 
+bool ibstream::getByte(Byte& b)
+{
+    Bit* buffer = nullptr;
+    size_t length = gets(buffer, 8);
+
+    b = 0;
+    for (size_t i = 0; i < length; i++) {
+        if (buffer[i]) {
+            b |= bit_mask[i];
+        }
+    }
+
+    delete[] buffer;
+
+    return !b_eof();
+}
+
 SSIZE ibstream::extractLength()
 {
     if (fp) {

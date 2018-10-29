@@ -155,13 +155,15 @@
   <ItemGroup>
     <ClCompile Include="bstream.cpp" />
     <ClCompile Include="ibstream.cpp" />
+    <ClCompile Include="LZ78ByteCoder.cpp" />
     <ClCompile Include="LZ78Coder.cpp" />
     <ClCompile Include="MyCompress.cpp" />
     <ClCompile Include="obstream.cpp" />
+    <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bitstream.h" />
-    <ClInclude Include="Coder.h" />
+    <ClInclude Include="LZ78ByteCoder.h" />
     <ClInclude Include="LZ78Coder.h" />
     <ClInclude Include="settings.h" />
     <ClInclude Include="Tree.h" />

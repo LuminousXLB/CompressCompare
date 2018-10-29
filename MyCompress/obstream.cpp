@@ -19,7 +19,7 @@ size_t obstream::flush()
 
         if (cnt * 8 < unsigned(pos)) {
             buffer[cnt] = 0;
-            for (int j = cnt * 8; j < pos; j++) {
+            for (size_t j = cnt * 8; j < pos; j++) {
                 if (bits[j]) {
                     buffer[cnt] |= bit_mask[j % 8];
                 }
@@ -105,4 +105,15 @@ void obstream::puts(Bit* buffer, size_t cnt)
         pos += cnt;
         count += cnt;
     }
+}
+
+void obstream::putByte(const Byte& b)
+{
+    Bit buffer[8] = { 0 };
+
+    for (size_t i = 0; i < 8; i++) {
+        buffer[i] = Bit(b & bit_mask[i]);
+    }
+
+    puts(buffer, 8);
 }

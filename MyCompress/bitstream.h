@@ -1,10 +1,9 @@
 #pragma once
 
+#include "settings.h"
 #include <cstdint>
 #include <cstdio>
 #include <cstring>
-
-#include "settings.h"
 
 typedef uint64_t SSIZE;
 typedef bool Bit;
@@ -63,6 +62,7 @@ public:
 
     bool getb(Bit& b);
     size_t gets(Bit*& buffer, size_t cnt);
+    bool getByte(Byte& b);
 
     SSIZE extractLength();
 
@@ -83,4 +83,5 @@ public:
 
     void putb(const Bit& b);
     void puts(Bit* buffer, size_t cnt);
+    void putByte(const Byte& b);
 };

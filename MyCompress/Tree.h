@@ -1,4 +1,5 @@
 #pragma once
+
 #include "settings.h"
 
 template <class T, size_t CNT = 2>

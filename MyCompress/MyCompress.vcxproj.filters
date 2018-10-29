@@ -30,6 +30,12 @@
     <ClCompile Include="LZ78Coder.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LZ78ByteCoder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bitstream.h">
@@ -41,13 +47,13 @@
     <ClInclude Include="Tree.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Coder.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="LZ78Coder.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="settings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LZ78ByteCoder.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
