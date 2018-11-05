@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\File.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\ioBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\ioBit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="structure\Tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="structure\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="structure\Byte.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\Buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\impl\base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\impl\ioBitBits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\impl\ioBitByte.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\impl\ioBitHbyte.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\impl\ioByteUnit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\impl\ioHbyteUnit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\index.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\ioUnitBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\ioBitUnitBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="structure\HuffmanTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LZCoder\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LZCoder\ioUtilLZ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LZCoder\LZCoderBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LZCoder\LZCoderBit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="index.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dbgsettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\impl\ioBitUnit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LZCoder\LZCoderByte.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LZCoder\LZCoderHbyte.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArithCoder\BinaryDecimal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArithCoder\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArithCoder\ArithCoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="structure\Byte.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io\impl\ioBitBits.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io\File.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io\impl\ioBitByte.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io\impl\ioBitHbyte.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io\impl\ioByteUnit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io\impl\ioHbyteUnit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io\ioBit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io\impl\ioBitUnit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArithCoder\BinaryDecimal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArithCoder\ArithCoder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dbgmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
