@@ -36,3 +36,5 @@
 //#define ArithDecoderOutDBG
 
 #define __DBGHeader__ printf("\t[%s : %4d] ", __FUNCTION__, __LINE__);
+
+#define CMD_TOOL

@@ -139,7 +139,7 @@ void Byte::flip(int pos)
     }
 }
 
-uint8_t Byte::to_int()
+uint8_t Byte::to_int() const
 {
     uint8_t val = 0;
     memcpy_s(&val, 1, &b_, 1);
@@ -147,7 +147,7 @@ uint8_t Byte::to_int()
     return val;
 }
 
-string Byte::toString()
+string Byte::toString() const
 {
     return to_string(b_.x00) + to_string(b_.x01) + to_string(b_.x02) + to_string(b_.x03) + to_string(b_.x04) + to_string(b_.x05) + to_string(b_.x06) + to_string(b_.x07);
 }

@@ -1,3 +1,6 @@
+#include "settings.h"
+
+#ifdef CMD_TOOL
 #include <ctime>
 #include <iostream>
 
@@ -118,3 +121,5 @@ int main(int argc, char const* argv[])
 
     return 0;
 }
+
+#endif // CMD_TOOL

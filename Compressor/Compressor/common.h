@@ -1,6 +1,6 @@
 #pragma once
 
-#include "dbgsettings.h"
+#include "settings.h"
 #include <array>
 #include <bitset>
 #include <cassert>

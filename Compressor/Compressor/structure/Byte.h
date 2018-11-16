@@ -29,6 +29,6 @@ public:
     void clear();
     void flip(int pos);
 
-    uint8_t to_int();
-    string toString();
+    uint8_t to_int() const;
+    string toString() const;
 };

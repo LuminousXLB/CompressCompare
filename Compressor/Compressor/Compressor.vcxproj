@@ -166,7 +166,7 @@
     <ClInclude Include="LZCoder\ioUtilLZ.h" />
     <ClInclude Include="LZCoder\LZCoderBase.h" />
     <ClInclude Include="LZCoder\LZCoderBit.h" />
-    <ClInclude Include="dbgsettings.h" />
+    <ClInclude Include="settings.h" />
     <ClInclude Include="LZCoder\LZCoderByte.h" />
     <ClInclude Include="structure\HuffmanTree.h" />
     <ClInclude Include="io\impl\ioHbyteUnit.h" />
